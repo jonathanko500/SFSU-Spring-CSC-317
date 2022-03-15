@@ -1,2 +1,2 @@
-let z = "hi";
+let z = 'why';
 console.log(z);
