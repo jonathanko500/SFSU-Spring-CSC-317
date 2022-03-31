@@ -1,8 +1,9 @@
-const funcStuff = function()
-{
-    return 'stuff';
-}
+const word = "Pee";
+const certain = /[a-zA-Z]/;
+let first = word.charAt(0);
 
-const arrowFunc = para => para + ' stuff';
 
-console.log(arrowFunc('what'));
+    
+
+
+console.log(certain.test(first));
